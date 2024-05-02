@@ -6,8 +6,8 @@ from tensorflow.keras.utils import img_to_array
 import cv2
 import numpy as np
 
-face_classifier = cv2.CascadeClassifier(r'C:\Users\Sahil Israni\Documents\sem-6 project\emojify\Emotion_Detection_CNN-main\haarcascade_frontalface_default.xml')
-classifier =load_model(r'C:\Users\Sahil Israni\Documents\sem-6 project\emojify\Emotion_Detection_CNN-main\model.h5')
+face_classifier = cv2.CascadeClassifier(r'C:\Users\Sahil Israni\Documents\sem-6 project\emojify\emotion-detection\Emotion_Detection_CNN-main\haarcascade_frontalface_default.xml')
+classifier =load_model(r'C:\Users\Sahil Israni\Documents\sem-6 project\emojify\emotion-detection\Emotion_Detection_CNN-main\model.h5')
 
 emotion_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']
 
